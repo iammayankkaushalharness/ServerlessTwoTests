@@ -1,4 +1,4 @@
-service: newproject
+service: <+serviceVariables.var3>
 frameworkVersion: '3.30.1'
 
 provider:
