@@ -9,7 +9,7 @@ provider:
 #   artifact: <+artifact.path>  
 
 functions:
-  currentTime:
+  currentTime1.0:
     handler: com.serverless.Handler
     # image: <+artifact.image>
     events:
