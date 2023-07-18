@@ -1,1 +1,2 @@
 serviceName : <+serviceVariables.var3>
+functionName : <+serviceVariables.var2>
