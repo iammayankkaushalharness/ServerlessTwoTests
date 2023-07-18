@@ -1,1 +1,1 @@
-serviceName : newName
+serviceName : <+serviceVariables.var3>
