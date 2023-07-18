@@ -1,4 +1,4 @@
-service: randommayank
+service:  {{ .Values.serviceName }}
 frameworkVersion: '3.30.1'
 
 provider:
@@ -9,7 +9,7 @@ provider:
 #   artifact: <+artifact.path>  
 
 functions:
-  currentTimeyesterday:
+   {{ .Values.functionName }}:
     handler: com.serverless.Handler
     # image: <+artifact.image>
     events:
